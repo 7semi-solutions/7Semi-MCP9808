@@ -40,9 +40,9 @@ void setup() {
 
   /**
   * Set resolution
-  * *  MCP9808_RES_0_125C = 0.125°C 
+  * *  MCP9808_RES_0_125C = 0.0625°C 
   */
-  MCP9808.setResolution(MCP9808_RES_0_125C);
+  MCP9808.setResolution(MCP9808_RES_0_0625C);
 
   Serial.println("MCP9808 initialized");
 }
