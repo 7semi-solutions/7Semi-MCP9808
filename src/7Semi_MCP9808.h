@@ -5,7 +5,6 @@
 #include <Wire.h>
 
 #include "7Semi_I2C_Interface.h"
-#include "7Semi_SPI_Interface.h"
 #include "BusIO_7Semi.h"
 
 // Default I2C address of MCP9808
